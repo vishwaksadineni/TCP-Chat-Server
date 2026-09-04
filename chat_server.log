@@ -1,0 +1,12 @@
+2026-06-28 01:51:33,224 INFO MainThread Server listening on 127.0.0.1:5000
+2026-06-28 01:52:32,964 INFO Thread-1 (handle_client) Vishwak connected from 127.0.0.1:51924
+2026-06-28 01:53:17,652 INFO Thread-2 (handle_client) Kriti connected from 127.0.0.1:51928
+2026-06-28 01:53:57,468 INFO Thread-3 (handle_client) Sarayu connected from 127.0.0.1:51933
+2026-06-28 01:54:06,721 INFO Thread-1 (handle_client) public Vishwak: Hi
+2026-06-28 01:54:15,309 INFO Thread-2 (handle_client) public Kriti: Hi Baby
+2026-06-28 01:54:22,964 INFO Thread-3 (handle_client) public Sarayu: Hi Guys
+2026-06-28 01:54:30,763 INFO Thread-1 (handle_client) public Vishwak: Fuck You Sarayu
+2026-06-28 01:54:40,197 INFO Thread-2 (handle_client) public Kriti: Sarayu I Hate You
+2026-06-28 01:54:46,110 INFO Thread-3 (handle_client) public Sarayu: Bye Guys
+2026-06-28 01:54:48,556 INFO Thread-3 (handle_client) public Sarayu: quit
+2026-06-28 01:55:00,877 INFO Thread-3 (handle_client) Sarayu disconnected

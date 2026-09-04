@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcp-chat-project"
+version = "0.1.0"
+description = "A dependency-free multi-threaded TCP chat server and client."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Canvas User" }
+]
+
+[project.scripts]
+chat-server = "canvas_project.server:main"
+chat-client = "canvas_project.client:main"
+canvas-project = "canvas_project.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["canvas_project*"]
